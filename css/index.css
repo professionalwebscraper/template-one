@@ -607,6 +607,13 @@ body {
 
 @media(max-width:991px) {
     .abouts {
+
+        gap: 0px;
+
+
+    }
+
+    .abouts {
         flex-direction: column;
         flex-wrap: wrap;
         text-align: left;
@@ -631,7 +638,6 @@ body {
 
     .about .text-1 p:nth-child(1),
     p:nth-child(3) {
-        line-break: auto;
         font-size: 15px;
 
     }
@@ -764,19 +770,23 @@ body {
 /* end-contact */
 
 /* start copy right */
-.copy{
+.copy {
     margin: 0;
     width: 100%;
     padding: 20px;
     background-color: #2c4655;
     text-align: center;
 }
-.copy p{
-color: #fff;
-font-size: 15px;
-}
-.copy span{
+
+.copy p {
     color: #fff;
     font-size: 15px;
-    color: var(--col);}
+}
+
+.copy span {
+    color: #fff;
+    font-size: 15px;
+    color: var(--col);
+}
+
 /* end copy right */
