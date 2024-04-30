@@ -152,7 +152,7 @@ body {
 /* start-landing */
 .landing {
     width: 100%;
-    background-image: url('/img/mountaine.jpg');
+    background-image: url('../img/mountaine.jpg');
     background-size: cover;
     height: calc(100vh - 64px);
     text-align: center;
